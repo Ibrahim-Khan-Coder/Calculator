@@ -44,7 +44,7 @@ def tangent(x):
     return math.tan(math.radians(x))
 
 # Streamlit UI
-st.title("Scientific Calculator")
+st.title("Ibrahim Khan's Scientific Calculator")
 
 operation = st.selectbox("Select Operation", ("Add", "Subtract", "Multiply", "Divide", "Power", "Square Root", "Logarithm", "Sine", "Cosine", "Tangent"))
 
